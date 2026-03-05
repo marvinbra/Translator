@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <header id="backgroundImg" style="background-image: url('assets/worldmap.png')">
+            <img id="parrotImg" src="assets/parrot.png" alt="parrot"/>
+            <div id="head-txt">
+                <h1>PollyGlot</h1>
+                <p>Perfect Translation Every Time</p>
+            </div>
+        </header>
+        
+        <div id="border">
+        
+        <main id="main">
+            <p>Text to translate 👇</p>
+            <textarea id="textarea-input"></textarea>
+        </main>
+        
+        <section id="section">
+            <p>Select Language 👇</p>
+            <div id="checkbox-div">
+                <div class="checkbox-row">
+                    <input type="checkbox" id="box-f" class="checkbox" value="french">
+                    <label for="box-f">French</label>
+                    <img src="assets/fr-flag.png" alt="French Flag" class="flag">
+                </div class="checkbox-row">
+                <div>
+                    <input type="checkbox" id="box-s" class="checkbox" value="spanish">
+                    <label for="box-s">Spanish</label>
+                    <img src="assets/sp-flag.png" alt="Spanish Flag" class="flag">
+                </div>
+                <div class="checkbox-row">
+                    <input type="checkbox" id="box-j" class="checkbox" value="japanese">
+                    <label for="box-j">Japanese</label>
+                    <img src="assets/jpn-flag.png" alt="Japan Flag" class="flag">
+                </div>
+            </div>
+            <button id="translate-btn">Translate</button>
+        </section>
+        
+        </div>
+        
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
